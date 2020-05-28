@@ -65,14 +65,14 @@
         </div>	  
     </div>	
 </div>	
-   
-    <div id="make-3D-space2">
-    <div id="product-card">
-        <div id="product-front">
-        	<div class="shadow"></div>
-            <img src="imagenes/camisas/1.0.png" alt="" />
+
+<div id="make-3D-space2">
+    <div id="product-card2">
+        <div id="product-front2">
+        	<div class="shadow2"></div>
+            <img src="imagenes/camisas/1.3.png" alt="" />
             <div class="image_overlay"></div>
-            <div id="view_details">Ver detalles</div>
+            <div id="view_details2">Ver detalles</div>
             <div class="stats">        	
                 <div class="stats-container">
                     <span class="product_price">$32.000</span>
@@ -92,28 +92,28 @@
                 </div>                         
             </div>
         </div>
-        <div id="product-back">
-	        <div class="shadow"></div>
-            <div id="carousel">
+        <div id="product-back2">
+	        <div class="shadow2"></div>
+            <div id="carousel2">
                 <ul>
-                    <li><img src="imagenes/camisas/1.0.png" alt="" /></li>
-                    <li><img src="imagenes/camisas/1.1.png" alt="" /></li>
-                    <li><img src="imagenes/camisas/1.2.png" alt="" /></li>
+                    <li><img src="imagenes/camisas/1.3.png" alt="" /></li>
+                    <li><img src="imagenes/camisas/1.4.png" alt="" /></li>
+                    <li><img src="imagenes/camisas/1.5.png" alt="" /></li>
                 </ul>
                 <div class="arrows-perspective">
-                    <div class="carouselPrev">
+                    <div class="carouselPrev2">
                         <div class="y"></div>
 	                    <div class="x"></div>
                     </div>
-                    <div class="carouselNext">
+                    <div class="carouselNext2">
                         <div class="y"></div>
 	                    <div class="x"></div>
                     </div>
                 </div>
             </div>
-            <div id="flip-back">
-            	<div id="cy"></div>
-                <div id="cx"></div>
+            <div id="flip-back2">
+            	<div id="cy2"></div>
+                <div id="cx2"></div>
             </div>
         </div>	  
     </div>	
@@ -132,8 +132,17 @@
 			$(this).removeClass('animate');			
 			$('div.carouselNext, div.carouselPrev').removeClass('visible');
 	});	
-	
-	// Flip card to the back side
+    
+    // Lift card 2 and show stats on Mouseover
+	$('#product-card2').hover(function(){
+			$(this).addClass('animate');
+			$('div.carouselNext2, div.carouselPrev2').addClass('visible');			
+		 }, function(){
+			$(this).removeClass('animate');			
+			$('div.carouselNext2, div.carouselPrev2').removeClass('visible');
+	});	
+	 
+    // Flip card to the back side
 	$('#view_details').click(function(){		
 		$('div.carouselNext, div.carouselPrev').removeClass('visible');
 		$('#product-card').addClass('flip-10');
@@ -157,9 +166,35 @@
 				}, 100);
 			}, 100);			
 		}, 150);			
-	});			
-	
-	// Flip card back to the front side
+	});	
+        
+     // Flip card 2 to the back side
+	$('#view_details2').click(function(){		
+		$('div.carouselNext2, div.carouselPrev2').removeClass('visible');
+		$('#product-card2').addClass('flip-10');
+		setTimeout(function(){
+			$('#product-card2').removeClass('flip-10').addClass('flip90').find('div.shadow2').show().fadeTo( 80 , 1, function(){
+				$('#product-front2, #product-front2 div.shadow2').hide();			
+			});
+		}, 50);
+		
+		setTimeout(function(){
+			$('#product-card2').removeClass('flip90').addClass('flip190');
+			$('#product-back2').show().find('div.shadow2').show().fadeTo( 90 , 0);
+			setTimeout(function(){				
+				$('#product-card2').removeClass('flip190').addClass('flip180').find('div.shadow2').hide();						
+				setTimeout(function(){
+					$('#product-card2').css('transition', '100ms ease-out');			
+					$('#cx2, #cy2').addClass('s1');
+					setTimeout(function(){$('#cx2, #cy2').addClass('s2');}, 100);
+					setTimeout(function(){$('#cx2, #cy2').addClass('s3');}, 200);				
+					$('div.carouselNext2, div.carouselPrev2').addClass('visible');				
+				}, 100);
+			}, 100);			
+		}, 150);			
+	});	
+        
+    // Flip card back to the front side
 	$('#flip-back').click(function(){		
 		
 		$('#product-card').removeClass('flip180').addClass('flip190');
@@ -183,9 +218,33 @@
 		}, 150);			
 		
 	});	
-
+    
+     // Flip card back2 to the front side
+	$('#flip-back2').click(function(){		
+		
+		$('#product-card2').removeClass('flip180').addClass('flip190');
+		setTimeout(function(){
+			$('#product-card2').removeClass('flip190').addClass('flip90');
 	
-	/* ----  Image Gallery Carousel   ---- */
+			$('#product-back2 div.shadow2').css('opacity', 0).fadeTo( 100 , 1, function(){
+				$('#product-back2, #product-back2 div.shadow2').hide();
+				$('#product-front2, #product-front2 div.shadow2').show();
+			});
+		}, 50);
+		
+		setTimeout(function(){
+			$('#product-card2').removeClass('flip90').addClass('flip-10');
+			$('#product-front2 div.shadow2').show().fadeTo( 100 , 0);
+			setTimeout(function(){						
+				$('#product-front2 div.shadow2').hide();
+				$('#product-card2').removeClass('flip-10').css('transition', '100ms ease-out');		
+				$('#cx2, #cy2').removeClass('s1 s2 s3');			
+			}, 100);			
+		}, 150);			
+		
+	});	
+     
+    /* ----  Image Gallery Carousel   ---- */
 	
 	var carousel = $('#carousel ul');
 	var carouselSlideWidth = 335;
@@ -220,8 +279,48 @@
 							 });
 	    isAnimating = true;
 		setTimeout(function(){isAnimating = false;}, 300);			
+	});    
+      
+      /* ----  Image Gallery 2 Carousel  2   ---- */
+	
+	var carousel2 = $('#carousel2 ul');
+	var carousel2SlideWidth = 335;
+	var carousel2Width = 0;	
+	var isAnimating2 = false;
+	
+	// building the width of the casousel
+	$('#carousel2 li').each(function(){
+		carousel2Width += carousel2SlideWidth;
 	});
+	$(carousel2).css('width', carousel2Width);
+	
+	// Load Next Image
+	$('div.carouselNext2').on('click', function(){
+		var currentLeft2 = Math.abs(parseInt($(carousel2).css("left")));
+		var newLeft2 = currentLeft2 + carousel2SlideWidth;
+		if(newLeft2 == carousel2Width || isAnimating2 === true){return;}
+		$('#carousel2 ul').css({'left': "-" + newLeft2 + "px",
+							   "transition": "300ms ease-out"
+							 });
+		isAnimating2 = true;
+		setTimeout(function(){isAnimating2 = false;}, 300);			
+	});
+	
+	// Load Previous Image
+	$('div.carouselPrev2').on('click', function(){
+		var currentLeft2 = Math.abs(parseInt($(carousel2).css("left")));
+		var newLeft2 = currentLeft2 - carousel2SlideWidth;
+		if(newLeft2 < 0  || isAnimating2 === true){return;}
+		$('#carousel2 ul').css({'left': "-" + newLeft2 + "px",
+							   "transition": "300ms ease-out"
+							 });
+	    isAnimating2 = true;
+		setTimeout(function(){isAnimating2 = false;}, 300);			
+	});     
+	
 });
+	
+       
     </script>
 </body>
 </html>
