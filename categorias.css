@@ -21,7 +21,7 @@ body {
     margin-left:-167px;
 }
 /*depurar*/
-#product-front, #product-front2, #product-back, #product-back2{
+#product-front, #product-front2, #product-front3, #product-front4, #product-front5, #product-front6, #product-front7, #product-front8, #product-front9, #product-front10, #product-front11, #product-front12, #product-front13, #product-front14, #product-front15, #product-front16, #product-front17, #product-front18, #product-front19, #product-front20, #product-back, #product-back2, #product-back3, #product-back4, #product-back5, #product-back6, #product-back7, #product-back8, #product-back9, #product-back10, #product-back11, #product-back12, #product-back13, #product-back14, #product-back15, #product-back16, #product-back17, #product-back18, #product-back19, #product-back20{
 	width:335px;
 	height:500px;
 	background:#fff;
@@ -33,15 +33,14 @@ body {
          -o-transition: all 100ms ease-out; 
             transition: all 100ms ease-out; 
 }
-/*depurar*/
-#product-back, #product-back2{
+#product-back, #product-back2, #product-back3, #product-back4, #product-back5, #product-back6, #product-back7, #product-back8, #product-back9, #product-back10, #product-back11, #product-back12, #product-back13, #product-back14, #product-back15, #product-back16, #product-back17, #product-back18, #product-back19, #product-back20{
 	display:none;
 	transform: rotateY( 180deg );
 }
 
 /*depurar*/
 
-#product-card.animate #product-back, #product-card2.animate #product-back2, #product-card.animate #product-front, #product-card2.animate #product-front2{
+#product-card.animate #product-back, #product-card2.animate #product-back2, #product-card3.animate #product-back3, #product-card4.animate #product-back4, #product-card5.animate #product-back5, #product-card6.animate #product-back6, #product-card7.animate #product-back7, #product-card8.animate #product-back8, #product-card9.animate #product-back9, #product-card10.animate #product-back10, #product-card11.animate #product-back11, #product-card12.animate #product-back12, #product-card13.animate #product-back13, #product-card14.animate #product-back14, #product-card15.animate #product-back15, #product-card16.animate #product-back16, #product-card17.animate #product-back17, #product-card18.animate #product-back18, #product-card19.animate #product-back19, #product-card20.animate #product-back20, #product-card.animate #product-front, #product-card2.animate #product-front2, #product-card3.animate #product-front3, #product-card4.animate #product-front4, #product-card5.animate #product-front5, #product-card6.animate #product-front6, #product-card7.animate #product-front7, #product-card8.animate #product-front8, #product-card9.animate #product-front9, #product-card10.animate #product-front10, #product-card11.animate #product-front11, #product-card12.animate #product-front12, #product-card13.animate #product-front13, #product-card14.animate #product-front14, #product-card15.animate #product-front15, #product-card16.animate #product-front16, #product-card17.animate #product-front17, #product-card18.animate #product-front18, #product-card19.animate #product-front19, #product-card20.animate #product-front20{
 	top:0px;
 	left:0px;
 	-webkit-transition: all 100ms ease-out; 
@@ -49,7 +48,7 @@ body {
          -o-transition: all 100ms ease-out; 
             transition: all 100ms ease-out; 
 }
-#product-card, #product-card2{
+#product-card, #product-card2, #product-card3, #product-card4, #product-card5, #product-card6, #product-card7, #product-card8, #product-card9, #product-card10, #product-card11, #product-card12, #product-card13, #product-card14, #product-card15, #product-card16, #product-card17, #product-card18, #product-card19, #product-card20{
 	width:325px;
 	height:490px;
 	position:absolute;    
@@ -62,35 +61,35 @@ body {
          -o-transition:  100ms ease-out; 
             transition:  100ms ease-out;
 }
-div#product-card.flip-10, div#product-card2.flip-10{
+div#product-card.flip-10, div#product-card2.flip-10, div#product-card3.flip-10, div#product-card4.flip-10, div#product-card5.flip-10, div#product-card6.flip-10, div#product-card7.flip-10, div#product-card8.flip-10, div#product-card9.flip-10, div#product-card10.flip-10, div#product-card11.flip-10, div#product-card12.flip-10, div#product-card13.flip-10, div#product-card14.flip-10, div#product-card15.flip-10, div#product-card16.flip-10, div#product-card17.flip-10, div#product-card18.flip-10, div#product-card19.flip-10, div#product-card20.flip-10{
 	 -webkit-transform: rotateY( -10deg );
          -moz-transform: rotateY( -10deg );
            -o-transform: rotateY( -10deg );
               transform: rotateY( -10deg );
 			   transition:  50ms ease-out; 			
 }
-div#product-card.flip90, div#product-card2.flip90{
+div#product-card.flip90, div#product-card2.flip90, div#product-card3.flip90, div#product-card4.flip90, div#product-card5.flip90, div#product-card6.flip90, div#product-card7.flip90, div#product-card8.flip90, div#product-card9.flip90, div#product-card10.flip90, div#product-card11.flip90, div#product-card12.flip90, div#product-card13.flip90, div#product-card14.flip90, div#product-card15.flip90, div#product-card16.flip90, div#product-card17.flip90, div#product-card18.flip90, div#product-card19.flip90, div#product-card20.flip90{
 	 -webkit-transform: rotateY( 90deg );
          -moz-transform: rotateY( 90deg );
            -o-transform: rotateY( 90deg );
               transform: rotateY( 90deg );
 			   transition:  100ms ease-in; 			
 }
-div#product-card.flip190, div#product-card2.flip190{
+div#product-card.flip190, div#product-card2.flip190, div#product-card3.flip190, div#product-card4.flip190, div#product-card5.flip190, div#product-card6.flip190, div#product-card7.flip190, div#product-card8.flip190, div#product-card9.flip190, div#product-card10.flip190, div#product-card11.flip190, div#product-card12.flip190, div#product-card13.flip190, div#product-card14.flip190, div#product-card15.flip190, div#product-card16.flip190, div#product-card17.flip190, div#product-card18.flip190, div#product-card19.flip190, div#product-card20.flip190{
 	 -webkit-transform: rotateY( 190deg );
          -moz-transform: rotateY( 190deg );
            -o-transform: rotateY( 190deg );
               transform: rotateY( 190deg );
 			   transition:  100ms ease-out; 			
 }
-div#product-card.flip180, div#product-card2.flip180{
+div#product-card.flip180, div#product-card2.flip180, div#product-card3.flip180, div#product-card4.flip180, div#product-card5.flip180, div#product-card6.flip180, div#product-card7.flip180, div#product-card8.flip180, div#product-card9.flip180, div#product-card10.flip180, div#product-card11.flip180, div#product-card12.flip180, div#product-card13.flip180, div#product-card14.flip180, div#product-card15.flip180, div#product-card16.flip180, div#product-card17.flip180, div#product-card18.flip180, div#product-card19.flip180, div#product-card20.flip180{
 	 -webkit-transform: rotateY( 180deg );
          -moz-transform: rotateY( 180deg );
            -o-transform: rotateY( 180deg );
               transform: rotateY( 180deg );
 			   transition:  150ms ease-out; 			
 }
-#product-card.animate, #product-card2.animate{
+#product-card.animate, #product-card2.animate,#product-card3.animate, #product-card4.animate, #product-card5.animate, #product-card6.animate, #product-card7.animate, #product-card8.animate, #product-card9.animate, #product-card10.animate, #product-card11.animate, #product-card12.animate, #product-card13.animate, #product-card14.animate, #product-card15.animate, #product-card16.animate, #product-card17.animate, #product-card18.animate, #product-card19.animate, #product-card20.animate{
 	top:5px;
 	left:5px;
 	width:335px;
@@ -118,7 +117,7 @@ div#product-card.flip180, div#product-card2.flip180{
             transition: all 200ms ease-out;
 }
 /*depurar*/
-#product-card.animate .stats-container, #product-card2.animate .stats-container{
+#product-card.animate .stats-container, #product-card2.animate .stats-container, #product-card3.animate .stats-container, #product-card4.animate .stats-container, #product-card5.animate .stats-container, #product-card6.animate .stats-container, #product-card7.animate .stats-container, #product-card8.animate .stats-container, #product-card9.animate .stats-container, #product-card10.animate .stats-container, #product-card11.animate .stats-container, #product-card12.animate .stats-container, #product-card13.animate .stats-container, #product-card14.animate .stats-container, #product-card15.animate .stats-container, #product-card16.animate .stats-container, #product-card17.animate .stats-container, #product-card18.animate .stats-container, #product-card19.animate .stats-container, #product-card20.animate .stats-container{
 	top:272px;
 	-webkit-transition: all 200ms ease-out; 
        -moz-transition: all 200ms ease-out; 
@@ -153,7 +152,7 @@ div#product-card.flip180, div#product-card2.flip180{
 	opacity:0;	
 }
 /*depurar*/
-#product-card.animate .image_overlay, #product-card2.animate .image_overlay{
+#product-card.animate .image_overlay, #product-card2.animate .image_overlay, #product-card3.animate .image_overlay, #product-card4.animate .image_overlay, #product-card5.animate .image_overlay, #product-card6.animate .image_overlay, #product-card7.animate .image_overlay, #product-card8.animate .image_overlay, #product-card9.animate .image_overlay, #product-card10.animate .image_overlay, #product-card11.animate .image_overlay, #product-card12.animate .image_overlay, #product-card13.animate .image_overlay, #product-card14.animate .image_overlay, #product-card15.animate .image_overlay, #product-card16.animate .image_overlay, #product-card17.animate .image_overlay, #product-card18.animate .image_overlay, #product-card19.animate .image_overlay, #product-card20.animate .image_overlay{
 	opacity:0.7;	
 	-webkit-transition: all 200ms ease-out; 
        -moz-transition: all 200ms ease-out; 
@@ -177,7 +176,7 @@ div#product-card.flip180, div#product-card2.flip180{
 	margin-bottom:8px;
 }
 /*depurar*/
-#view_details, #view_details2{	
+#view_details, #view_details2, #view_details3, #view_details4, #view_details5, #view_details6, #view_details7, #view_details8, #view_details9, #view_details10, #view_details11, #view_details12, #view_details13, #view_details14, #view_details15, #view_details16, #view_details17, #view_details18, #view_details19, #view_details20{	
 	position:absolute;
 	top:112px;
 	left:50%;
@@ -192,6 +191,186 @@ div#product-card.flip180, div#product-card2.flip180{
        -moz-transition: all 200ms ease-out; 
          -o-transition: all 200ms ease-out; 
             transition: all 200ms ease-out; 
+}
+#view_details20:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details19:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details18:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details17:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details16:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details15:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details14:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details13:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details12:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details11:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details10:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details9:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details8:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details7:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details6:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details5:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details4:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
+}
+#view_details3:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
+
 }
 #view_details2:hover{	
 	background:#fff;
@@ -215,7 +394,7 @@ div#product-card.flip180, div#product-card2.flip180{
 }
 /*depurar*/
 /*depurar*/
-#product-card.animate #view_details, #product-card2.animate #view_details2{
+#product-card.animate #view_details, #product-card2.animate #view_details2, #product-card3.animate #view_details3, #product-card4.animate #view_details4, #product-card5.animate #view_details5, #product-card6.animate #view_details6, #product-card7.animate #view_details7, #product-card8.animate #view_details8, #product-card9.animate #view_details9, #product-card10.animate #view_details10, #product-card11.animate #view_details11, #product-card12.animate #view_details12, #product-card13.animate #view_details13, #product-card14.animate #view_details14, #product-card15.animate #view_details15, #product-card16.animate #view_details16, #product-card17.animate #view_details17, #product-card18.animate #view_details18, #product-card19.animate #view_details19, #product-card20.animate #view_details20{
 	opacity:1;
 	width:152px;
 	font-size:15px;
@@ -256,7 +435,7 @@ div.c-white span{
 	border:1px solid #e8e9eb;
 }
 /*depurar*/
-div.shadow, div.shadow2{
+div.shadow, div.shadow2, div.shadow3, div.shadow4, div.shadow5, div.shadow6, div.shadow7, div.shadow8, div.shadow9, div.shadow10, div.shadow11, div.shadow12, div.shadow13, div.shadow14, div.shadow15, div.shadow16, div.shadow17, div.shadow18, div.shadow19, div.shadow20{
 	width:335px;height:520px;
 	opacity:0;
 	position:absolute;
@@ -269,7 +448,7 @@ div.shadow, div.shadow2{
     background: -moz-linear-gradient(right,rgba(0,0,0,0.1),rgba(0,0,0,0.2)); 
     background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.2)); 
 }
-#product-back div.shadow, #product-back2 div.shadow2{
+#product-back div.shadow, #product-back2 div.shadow2, #product-back3 div.shadow3, #product-back4 div.shadow4, #product-back5 div.shadow5, #product-back6 div.shadow6, #product-back7 div.shadow7, #product-back8 div.shadow8, #product-back9 div.shadow9, #product-back10 div.shadow10, #product-back11 div.shadow11, #product-back12 div.shadow12, #product-back13 div.shadow13, #product-back14 div.shadow14, #product-back15 div.shadow15, #product-back16 div.shadow16, #product-back17 div.shadow17, #product-back18 div.shadow18, #product-back19 div.shadow19, #product-back20 div.shadow20{
 	z-index:10;
 	opacity:1;
 	background: -webkit-linear-gradient(left,rgba(0,0,0,0.2),rgba(0,0,0,0.1));
@@ -278,7 +457,7 @@ div.shadow, div.shadow2{
     background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.1)); 
 }
 /*depurar*/
-#flip-back, #flip-back2{
+#flip-back, #flip-back2, #flip-back3, #flip-back4, #flip-back5, #flip-back6, #flip-back7, #flip-back8, #flip-back9, #flip-back10, #flip-back11, #flip-back12, #flip-back13, #flip-back14, #flip-back15, #flip-back16, #flip-back17, #flip-back18, #flip-back19, #flip-back20{
 	position:absolute;
 	top:20px;
 	right:20px;
@@ -287,7 +466,7 @@ div.shadow, div.shadow2{
 	cursor:pointer;
 }
 /*depurar*/
-#cx, #cy, #cx2, #cy2{
+#cx, #cy, #cx2, #cy2, #cx3, #cy3, #cx4, #cy4, #cx5, #cy5, #cx6, #cy6, #cx7, #cy7, #cx8, #cy8, #cx9, #cy9, #cx10, #cy10, #cx11, #cy11, #cx12, #cy12, #cx13, #cy13, #cx14, #cy14, #cx15, #cy15, #cx16, #cy16, #cx17, #cy17, #cx18, #cy18, #cx19, #cy19, #cx20, #cy20{
 	background:#d2d5dc;
 	position:absolute;
 	width:0px;
@@ -300,7 +479,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 250ms ease-in-out;
 			transition: all 250ms ease-in-out;
 }
-#flip-back:hover #cx, #flip-back:hover #cy, #flip-back2:hover #cx2, #flip-back2:hover #cy2{
+#flip-back:hover #cx, #flip-back:hover #cy, #flip-back2:hover #cx2, #flip-back2:hover #cy2, #flip-back3:hover #cx3, #flip-back3:hover #cy3, #flip-back4:hover #cx4, #flip-back4:hover #cy4, #flip-back5:hover #cx5, #flip-back5:hover #cy5, #flip-back6:hover #cx6, #flip-back6:hover #cy6, #flip-back7:hover #cx7, #flip-back7:hover #cy7, #flip-back8:hover #cx8, #flip-back8:hover #cy8, #flip-back9:hover #cx9, #flip-back9:hover #cy9, #flip-back10:hover #cx10, #flip-back10:hover #cy10, #flip-back11:hover #cx11, #flip-back11:hover #cy11, #flip-back12:hover #cx12, #flip-back12:hover #cy12, #flip-back13:hover #cx13, #flip-back13:hover #cy13, #flip-back14:hover #cx14, #flip-back14:hover #cy14, #flip-back15:hover #cx15, #flip-back15:hover #cy15, #flip-back16:hover #cx16, #flip-back16:hover #cy16, #flip-back17:hover #cx17, #flip-back17:hover #cy17, #flip-back18:hover #cx18, #flip-back18:hover #cy18, #flip-back19:hover #cx19, #flip-back19:hover #cy19, #flip-back20:hover #cx20, #flip-back20:hover #cy20{
 	background:#979ca7;
 	-webkit-transition: all 250ms ease-in-out;
 	   -moz-transition: all 250ms ease-in-out;
@@ -308,7 +487,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 250ms ease-in-out;
 			transition: all 250ms ease-in-out;
 }
-#cx.s1, #cy.s1, #cx2.s1, #cy2.s1{	
+#cx.s1, #cy.s1, #cx2.s1, #cy2.s1, #cx3.s1, #cy3.s1, #cx4.s1, #cy4.s1, #cx5.s1, #cy5.s1, #cx6.s1, #cy6.s1, #cx7.s1, #cy7.s1, #cx8.s1, #cy8.s1, #cx9.s1, #cy9.s1, #cx10.s1, #cy10.s1, #cx11.s1, #cy11.s1, #cx12.s1, #cy12.s1, #cx13.s1, #cy13.s1, #cx14.s1, #cy14.s1, #cx15.s1, #cy15.s1, #cx16.s1, #cy16.s1, #cx17.s1, #cy17.s1, #cx18.s1, #cy18.s1, #cx19.s1, #cy19.s1, #cx20.s1, #cy20.s1{	
 	right:0;	
 	width:30px;	
 	-webkit-transition: all 100ms ease-out;
@@ -317,7 +496,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 100ms ease-out;
 			transition: all 100ms ease-out;
 }
-#cy.s2, #cy2.s2{	
+#cy.s2, #cy2.s2, #cy3.s2, #cy4.s2, #cy5.s2, #cy6.s2, #cy7.s2, #cy8.s2, #cy9.s2, #cy10.s2, #cy11.s2, #cy12.s2, #cy13.s2, #cy14.s2, #cy15.s2, #cy16.s2, #cy17.s2, #cy18.s2, #cy19.s2, #cy20.s2{	
 	-ms-transform: rotate(50deg); 
 	-webkit-transform: rotate(50deg); 
 	transform: rotate(50deg);		 
@@ -327,7 +506,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 100ms ease-out;
 			transition: all 100ms ease-out;
 }
-#cy.s3, #cy2.s3{	
+#cy.s3, #cy2.s3, #cy3.s3, #cy4.s3, #cy5.s3, #cy6.s3, #cy7.s3, #cy8.s3, #cy9.s3, #cy10.s3, #cy11.s3, #cy12.s3, #cy13.s3, #cy14.s3, #cy15.s3, #cy16.s3, #cy17.s3, #cy18.s3, #cy19.s3, #cy20.s3{	
 	-ms-transform: rotate(45deg); 
 	-webkit-transform: rotate(45deg); 
 	transform: rotate(45deg);		 
@@ -337,7 +516,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 100ms ease-out;
 			transition: all 100ms ease-out;
 }
-#cx.s1, #cx2.s1{	
+#cx.s1, #cx2.s1, #cx3.s1, #cx4.s1, #cx5.s1, #cx6.s1, #cx7.s1, #cx8.s1, #cx9.s1, #cx10.s1, #cx11.s1, #cx12.s1, #cx13.s1, #cx14.s1, #cx15.s1, #cx16.s1, #cx17.s1, #cx18.s1, #cx19.s1, #cx20.s1{	
 	right:0;	
 	width:30px;	
 	-webkit-transition: all 100ms ease-out;
@@ -346,7 +525,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 100ms ease-out;
 			transition: all 100ms ease-out;
 }
-#cx.s2, #cx2.s2{	
+#cx.s2, #cx2.s2, #cx3.s2, #cx4.s2, #cx5.s2, #cx6.s2, #cx7.s2, #cx8.s2, #cx9.s2, #cx10.s2, #cx11.s2, #cx12.s2, #cx13.s2, #cx14.s2, #cx15.s2, #cx16.s2, #cx17.s2, #cx18.s2, #cx19.s2, #cx20.s2{	
 	-ms-transform: rotate(140deg); 
 	-webkit-transform: rotate(140deg); 
 	transform: rotate(140deg);		 
@@ -356,7 +535,7 @@ div.shadow, div.shadow2{
 		 -o-transition: all 100ms ease-out;
 			transition: all 100ms ease-out;
 }
-#cx.s3, #cx2.s3{	
+#cx.s3, #cx2.s3, #cx3.s3, #cx4.s3, #cx5.s3, #cx6.s3, #cx7.s3, #cx8.s3, #cx9.s3, #cx10.s3, #cx11.s3, #cx12.s3, #cx13.s3, #cx14.s3, #cx15.s3, #cx16.s3, #cx17.s3, #cx18.s3, #cx19.s3, #cx20.s3{	
 	-ms-transform: rotate(135deg); 
 	-webkit-transform: rotate(135deg); 
 	transform: rotate(135deg);		 
@@ -367,19 +546,19 @@ div.shadow, div.shadow2{
 			transition: all 100ms ease-out;
 }
 /*depurar*/
-#carousel, #carousel2{
+#carousel, #carousel2, #carousel3, #carousel4, #carousel5, #carousel6, #carousel7, #carousel8, #carousel9, #carousel10, #carousel11, #carousel12, #carousel13, #carousel14, #carousel15, #carousel16, #carousel17, #carousel18, #carousel19, #carousel20{
 	width:335px;
 	height:500px;
 	overflow:hidden;
 	position:relative;
 
 }
-#carousel ul, #carousel2 ul{
+#carousel ul, #carousel2 ul, #carousel3 ul, #carousel4 ul, #carousel5 ul, #carousel6 ul, #carousel7 ul, #carousel8 ul, #carousel9 ul, #carousel10 ul, #carousel11 ul, #carousel12 ul, #carousel13 ul, #carousel14 ul, #carousel15 ul, #carousel16 ul, #carousel17 ul, #carousel18 ul, #carousel19 ul, #carousel20 ul{
 	position:absolute;
 	top:0;
 	left:0;
 }
-#carousel li, #carousel2 li{
+#carousel li, #carousel2 li, #carousel3 li, #carousel4 li, #carousel5 li, #carousel6 li, #carousel7 li, #carousel8 li, #carousel9 li, #carousel10 li, #carousel11 li, #carousel12 li, #carousel13 li, #carousel14 li, #carousel15 li, #carousel16 li, #carousel17 li, #carousel18 li, #carousel19 li, #carousel20 li{
 	width:335px;
 	height:500px;
 	float:left;
@@ -397,7 +576,7 @@ div.shadow, div.shadow2{
 }
 
 /*depurar*/
-.carouselPrev, .carouselNext, .carouselPrev2, .carouselNext2{
+.carouselPrev, .carouselNext, .carouselPrev2, .carouselNext2, .carouselPrev3, .carouselNext3, .carouselPrev4, .carouselNext4, .carouselPrev5, .carouselNext5, .carouselPrev6, .carouselNext6, .carouselPrev7, .carouselNext7, .carouselPrev8, .carouselNext8, .carouselPrev9, .carouselNext9, .carouselPrev10, .carouselNext10, .carouselPrev11, .carouselNext11, .carouselPrev12, .carouselNext12, .carouselPrev13, .carouselNext13, .carouselPrev14, .carouselNext14, .carouselPrev15, .carouselNext15, .carouselPrev16, .carouselNext16, .carouselPrev17, .carouselNext17, .carouselPrev18, .carouselNext18, .carouselPrev19, .carouselNext19, .carouselPrev20, .carouselNext20{
 	width: 50px;
 	height: 55px;
 	background: #ccc;
@@ -407,7 +586,7 @@ div.shadow, div.shadow2{
 	opacity:0.9;
 	cursor:pointer;
 }
-.carouselNext, .carouselNext2{
+.carouselNext, .carouselNext2, .carouselNext3, .carouselNext4, .carouselNext5, .carouselNext6, .carouselNext7, .carouselNext8, .carouselNext9, .carouselNext10, .carouselNext11, .carouselNext12, .carouselNext13, .carouselNext14, .carouselNext15, .carouselNext16, .carouselNext17, .carouselNext18, .carouselNext19, .carouselNext20{
 	top:0;
 	right: -26px;
 	-webkit-transform: rotateY( -117deg );
@@ -417,7 +596,7 @@ div.shadow, div.shadow2{
 			  transition: all 200ms ease-out; 			
 
 }
-.carouselNext.visible, .carouselNext2.visible{
+.carouselNext.visible, .carouselNext2.visible, .carouselNext3.visible, .carouselNext4.visible, .carouselNext5.visible, .carouselNext6.visible, .carouselNext7.visible, .carouselNext8.visible, .carouselNext9.visible, .carouselNext10.visible, .carouselNext11.visible, .carouselNext12.visible, .carouselNext13.visible, .carouselNext14.visible, .carouselNext15.visible, .carouselNext16.visible, .carouselNext17.visible, .carouselNext18.visible, .carouselNext19.visible, .carouselNext20.visible{
 		right:0;
 		opacity:0.8;
 		background: #efefef;
@@ -427,7 +606,7 @@ div.shadow, div.shadow2{
               transform: rotateY( 0deg );
 			  transition: all 200ms ease-out; 
 }
-.carouselPrev, .carouselPrev2{		
+.carouselPrev, .carouselPrev2, .carouselPrev3, .carouselPrev4, .carouselPrev5, .carouselPrev6, .carouselPrev7, .carouselPrev8, .carouselPrev9, .carouselPrev10, .carouselPrev11, .carouselPrev12, .carouselPrev13, .carouselPrev14, .carouselPrev15, .carouselPrev16, .carouselPrev17, .carouselPrev18, .carouselPrev19, .carouselPrev20{		
 	left:-26px;
 	top:0;
 	-webkit-transform: rotateY( 117deg );
@@ -437,7 +616,7 @@ div.shadow, div.shadow2{
 			  transition: all 200ms ease-out; 
 
 }
-.carouselPrev.visible, .carouselPrev2.visible{
+.carouselPrev.visible, .carouselPrev2.visible, .carouselPrev3.visible, .carouselPrev4.visible, .carouselPrev5.visible, .carouselPrev6.visible, .carouselPrev7.visible, .carouselPrev8.visible, .carouselPrev9.visible, .carouselPrev10.visible, .carouselPrev11.visible, .carouselPrev12.visible, .carouselPrev13.visible, .carouselPrev14.visible, .carouselPrev15.visible, .carouselPrev16.visible, .carouselPrev17.visible, .carouselPrev18.visible, .carouselPrev19.visible, .carouselPrev20.visible{
 		left:0;
 		opacity:0.8;
 		background: #eee;
@@ -449,7 +628,7 @@ div.shadow, div.shadow2{
 }
 /*depurar*/
 /*depurar*/
-#carousel .x, #carousel .y, #carousel2 .x, #carousel2 .y{
+#carousel .x, #carousel .y, #carousel2 .x, #carousel2 .y, #carousel3 .x, #carousel3 .y, #carousel4 .x, #carousel4 .y, #carousel5 .x, #carousel5 .y, #carousel6 .x, #carousel6 .y, #carousel7 .x, #carousel7 .y, #carousel8 .x, #carousel8 .y, #carousel9 .x, #carousel9 .y, #carousel10 .x, #carousel10 .y, #carousel11 .x, #carousel11 .y, #carousel12 .x, #carousel12 .y, #carousel13 .x, #carousel13 .y, #carousel14 .x, #carousel14 .y, #carousel15 .x, #carousel15 .y, #carousel16 .x, #carousel16 .y, #carousel17 .x, #carousel17 .y, #carousel18 .x, #carousel18 .y, #carousel19 .x, #carousel19 .y, #carousel20 .x, #carousel20 .y{
 	height:2px;
 	width:15px;
 	background:#48cfad;
@@ -460,18 +639,18 @@ div.shadow, div.shadow2{
 	-webkit-transform: rotate(45deg); 
 	transform: rotate(45deg);	
 }
-#carousel .x, #carousel2 .x{
+#carousel .x, #carousel2 .x, #carousel3 .x, #carousel4 .x, #carousel5 .x, #carousel6 .x, #carousel7 .x, #carousel8 .x, #carousel9 .x, #carousel10 .x, #carousel11 .x, #carousel12 .x, #carousel13 .x, #carousel14 .x, #carousel15 .x, #carousel16 .x, #carousel17 .x, #carousel18 .x, #carousel19 .x, #carousel20 .x{
 	-ms-transform: rotate(135deg); 	
 	-webkit-transform: rotate(135deg); 
 	transform: rotate(135deg);		
 	top:21px;
 }
-#carousel .carouselNext .x, #carousel2 .carouselNext2 .x{
+#carousel .carouselNext .x, #carousel2 .carouselNext2 .x, #carousel3 .carouselNext3 .x, #carousel4 .carouselNext4 .x, #carousel5 .carouselNext5 .x, #carousel6 .carouselNext6 .x, #carousel7 .carouselNext7 .x, #carousel8 .carouselNext8 .x, #carousel9 .carouselNext9 .x, #carousel10 .carouselNext10 .x, #carousel11 .carouselNext11 .x, #carousel12 .carouselNext12 .x, #carousel13 .carouselNext13 .x, #carousel14 .carouselNext14 .x, #carousel15 .carouselNext15 .x, #carousel16 .carouselNext16 .x, #carousel17 .carouselNext17 .x, #carousel18 .carouselNext18 .x, #carousel19 .carouselNext19 .x, #carousel20 .carouselNext20 .x{
 	-ms-transform: rotate(45deg); 	
 	-webkit-transform: rotate(45deg); 
 	transform: rotate(45deg);		
 }
-#carousel .carouselNext .y, #carousel2 .carouselNext2 .y{
+#carousel .carouselNext .y, #carousel2 .carouselNext2 .y, #carousel3 .carouselNext3 .y, #carousel4 .carouselNext4 .y, #carousel5 .carouselNext5 .y, #carousel6 .carouselNext6 .y, #carousel7 .carouselNext7 .y, #carousel8 .carouselNext8 .y, #carousel9 .carouselNext9 .y, #carousel10 .carouselNext10 .y, #carousel11 .carouselNext11 .y, #carousel12 .carouselNext12 .y, #carousel13 .carouselNext13 .y, #carousel14 .carouselNext14 .y, #carousel15 .carouselNext15 .y, #carousel16 .carouselNext16 .y, #carousel17 .carouselNext17 .y, #carousel18 .carouselNext18 .y, #carousel19 .carouselNext19 .y, #carousel20 .carouselNext20 .y{
 	-ms-transform: rotate(135deg); 	
 	-webkit-transform: rotate(135deg); 
 	transform: rotate(135deg);		
@@ -495,7 +674,6 @@ img{
     width: 100%;
 }
 
-/* parte 2*/
 #make-3D-space2{
     margin-top: 600px;
     position: relative;
@@ -508,4 +686,239 @@ img{
     top:80px;
     left:50%;	
     margin-left:-167px;
+}
+#make-3D-space3{
+    margin-top: 1200px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space4{
+    margin-top: 1800px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space5{
+    margin-top: 2400px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space6{
+    margin-top: 3000px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space7{
+    margin-top: 3600px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space8{
+    margin-top: 4200px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space9{
+    margin-top: 4800px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space10{
+    margin-top: 5400px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space11{
+    margin-top: 6000px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space12{
+    margin-top: 6600px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space13{
+    margin-top: 7200px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space14{
+    margin-top: 7800px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space15{
+    margin-top: 8400px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space16{
+    margin-top: 9000px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space17{
+    margin-top: 9600px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space18{
+    margin-top: 10200px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space19{
+    margin-top: 10800px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#make-3D-space20{
+    margin-top: 11400px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+    margin-bottom: 100px;
 }
