@@ -140,6 +140,7 @@ div#product-card.flip180{
 	background:#48daa1;
 	opacity:0;	
 }
+
 #product-card.animate .image_overlay{
 	opacity:0.7;	
 	-webkit-transition: all 200ms ease-out; 
@@ -167,13 +168,10 @@ div#product-card.flip180{
 	left:50%;
 	margin-left:-85px;	
 	border:2px solid #fff;
+    font-size: 0px;
 	color:#fff;
-	font-size:19px;
 	text-align:center;
 	text-transform:uppercase;
-	font-weight:700;
-	padding:10px 0;
-	width:172px;	
 	opacity:0;
 	-webkit-transition: all 200ms ease-out; 
        -moz-transition: all 200ms ease-out; 
@@ -184,6 +182,10 @@ div#product-card.flip180{
 	background:#fff;
 	color:#48cfad;
 	cursor:pointer;
+    font-weight:700;
+	padding:10px 0;
+	width:172px;
+    font-size:19px;
 
 }
 #product-card.animate #view_details{
@@ -435,4 +437,36 @@ div.shadow{
 	-ms-transform: rotate(135deg); 	
 	-webkit-transform: rotate(135deg); 
 	transform: rotate(135deg);		
+}
+#color1{
+    background: black;
+    border-radius: 12px;
+}
+#color2{
+    background: white;
+    border-radius: 12px;
+    border:1px solid;
+}
+#color3{
+    background: #B8A7A3;
+    border-radius: 12px;
+    border:1px solid;
+}
+img{
+    width: 100%;
+}
+
+/* parte 2*/
+#make-3D-space2{
+    margin-top: 600px;
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
 }
