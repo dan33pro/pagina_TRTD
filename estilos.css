@@ -199,3 +199,25 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
     border-radius: 300px;
     border:2px solid #8480D5;
 }
+.contenedor{
+    display: block;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#espacio{
+    font-family: serif;
+    display: block;
+    margin-top: 5px;
+    box-shadow: 6px 6px 6px black;
+}
+#logo_categorias{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 12px;
+}
