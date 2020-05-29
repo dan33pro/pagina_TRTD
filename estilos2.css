@@ -149,3 +149,11 @@ footer h4 a {
   text-decoration: none;
   color: #3498db;
 }
+.content-profile-page{
+    width: 100%
+}
+#espacio{
+    background-image: url(imagenes/imagens2.jpg);
+    width: 100%;
+    height: 250px;
+}
