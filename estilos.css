@@ -1,6 +1,25 @@
 body{
     background-image: url(imagenes/fondo.jpg);
 }
+#inicio{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-left:85%;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 6px 6px 8px black;
+    z-index: 2;
+}
+#volver{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 20%;
+}
 #carouselExampleCaptions, #carouselExampleCaptions2, #carouselExampleCaptions3, #carouselExampleCaptions4, #carouselExampleCaptions5{
     background: white;
     height: 170px;
